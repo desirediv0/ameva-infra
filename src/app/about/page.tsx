@@ -71,7 +71,7 @@ export default function AboutPage() {
           <div className="space-y-6 text-[0.975rem] leading-relaxed text-navy-900/64 lg:col-span-7">
             <Reveal delay={0.15}>
               <p>
-                In 2011, four years into the business, a labour contractor
+                In 2016, at the very start of the business, a labour contractor
                 abandoned one of our sites midway through a slab pour. We spent
                 eleven weeks and a great deal of money making it right, and then
                 made a decision that has defined the company since: we would
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 engineers, supervisors, finishing crews and a quality cell that
                 reports to the board rather than to the project manager. It is
                 slower to scale than the alternative and it is the single reason
-                a bathroom in a 2015 project looks the same as one poured this
+                a bathroom in a 2016 project looks the same as one poured this
                 year.
               </p>
             </Reveal>

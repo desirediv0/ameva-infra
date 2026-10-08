@@ -62,13 +62,13 @@ export function Navbar() {
       >
         <nav className="container-x flex items-center justify-between gap-6">
           <Link href="/" className="group flex items-center gap-3" aria-label={site.name}>
-            <span className={`relative size-14 overflow-hidden rounded-lg transition-transform duration-500 group-hover:scale-105 sm:size-16 ${inverted ? "" : "bg-cream-50/95 p-1"}`}>
+            <span className={`relative size-14 overflow-hidden rounded-lg transition-transform duration-500 group-hover:scale-105 sm:size-16 ${inverted ? "" : ""}`}>
               <Image
                 src="/logo.png"
                 alt=""
                 fill
                 sizes="64px"
-                className="object-contain"
+                className={`object-contain ${inverted ? "" : "drop-shadow-[0_0_6px_rgba(255,255,255,0.55)]"}`}
                 priority
               />
             </span>

@@ -2,8 +2,7 @@ import { Marquee } from "@/components/ui/Marquee";
 
 const items = [
   "RERA Registered",
-  "IGBC Gold Pre-Certified",
-  "42 Projects Delivered",
+  "17 Projects Delivered",
   "On-Time Handover Guarantee",
   "ISO 9001:2015",
   "119 Families Housed",
